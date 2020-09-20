@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+		<meta charset="UTF-8" />
+		<script
+      src="https://kit.fontawesome.com/ceb16c1bd6.js"
+      crossorigin="anonymous"
+    ></script>
+		<link href="https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" href="src/styles.css" />
+		<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+
+  <body>
+    <div id="app"></div>
+		<h1 class="city">Calgary </h1>
+		<h2 id ="todays-date"> Date: Tuesday 16:00</h2>
+		<h2 id ="todays-temp">Current Temperature: 19°C | F</h2>
+		<div style= "text-align:center">
+				
+		<form id="search-form">
+		<input type="text" placeholder="Enter City Name" id="city-input">
+		<input type="submit" value="Search💖" class="search-button"/>
+		<button class="location">My Current Location 💖 </button>
+	</form>
+	
+	</div>
+	<br/>
+	<section class="week">
+		<div class="container">
+		<div class="row">
+		<div class="col-2">Monday </div>
+		<div class="col-2"> Tuesday</div>
+		<div class="col-2"> Wednesday</div>
+		<div class="col-2">Thursday</div>
+		<div class="col-2">Friday</div>
+		</div>
+	  </div>
+		<br/>
+
+	</div>
+	
+	<div class="container">
+			<div class="row">
+			<div class="col-2"><h4 class="emoji">
+				<span style="font-size:40px; color:#faf0af"><i class="fas fa-sun"></i>
+				</span></h4></div>
+			<div class="col-2"><h4 class="emoji">
+					<span style="font-size:40px; color:#faf0af"><i class="fas fa-sun"></i>
+					</span></h4></div>
+			<div class="col-2"><h4 class="emoji">
+					<span style="font-size:40px; color:#faf0af"><i class="fas fa-cloud-sun-rain"></i>
+					</span></h4></div>
+			<div class="col-2"><h4 class="emoji">
+					<span style="font-size:40px; color:#faf0af"><i class="fas fa-cloud"></i>
+					</span></h4></div>
+					<div class="col-2"><h4 class="emoji">
+						<span style="font-size:40px; color:#faf0af"><i class="fas fa-cloud"></i>
+						</span></h4></div>
+			</div>
+		</div>
+
+		<div class="container">
+		<div class="row">
+		<div class="col-2"><h6 class="temp"> 18°C </h6></div>
+		<div class="col-2"><h6 class="temp"> 12°C </h6></div>
+		<div class="col-2"><h6 class ="temp">17°C </h6></div>
+		<div class="col-2"><h6 class="temp">16°C</h6></div>
+		<div class="col-2"><h6 class="temp">17°C</h6></div>
+		</div>
+		</div>
+		<br/>
+	</section>
+		<p> 
+			<span id ="precipitation"><strong>Precipitation:
+			</strong> 10% </span>
+			<br/>
+			<span id ="windspeed"><strong>Wind:
+			</strong>
+			 15km/h </span>
+			<br/>
+			<span id ="humidity">
+			<strong>
+			Humidity: 
+			</strong>
+			0.2%
+		</span>
+
+
+	
+		</p>
+    <script src="src/index.js"></script>
+  </body>
+</html>

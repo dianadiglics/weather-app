@@ -1,0 +1,46 @@
+body {
+    font-family: sans-serif;
+    background-color: #f1c5c5;
+  }
+  h1 {
+    color: #fff;
+    text-align: center;
+    font-family: "Leckerli One", cursive;
+  }
+  h2 {
+    color: #faf0af;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Itim", cursive;
+  }
+  ::placeholder {
+    font-family: "Itim", cursive;
+  }
+  p {
+    text-align: center;
+    font-family: "Leckerli One", cursive;
+  }
+  .row {
+    text-align: center;
+    font-family: "Leckerli One", cursive;
+  }
+  .degrees {
+    color: #fff;
+  }
+  .icons {
+    font-size: 40px;
+  }
+  .search-button {
+    border: #faf0af;
+    border-radius: 4px;
+    color: #fff;
+    background: #faf0af;
+    font-family: "Itim", cursive;
+  }
+  .location {
+    border: #faf0af;
+    border-radius: 4px;
+    color: #fff;
+    background: #faf0af;
+    font-family: "Itim", cursive;
+  }
